@@ -1,27 +1,34 @@
-.navbar{
+.navbar {
     height: 50px;
-    background-color: #003580;
+    /* background-color: #003580; */
+    background: rgb(199,130,244);
+    background: linear-gradient(90deg, rgba(199,130,244,1) 0%, rgba(228,58,137,1) 35%, rgba(156,0,255,0.9990371148459384) 100%);
     display: flex;
     justify-content: center;
-  }
-  
-  .navContainer{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.navContainer {
     width: 100%;
     max-width: 1024px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-  
-  .logo{
+}
+
+.logo {
     font-weight: 500;
-  }
-  
-  .navButton{
+}
+
+.navButton {
     margin-left: 20px;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
-    color: #003580;
-  }
+    /* color: #003580; */
+    color: white;
+    background: transparent;
+}
